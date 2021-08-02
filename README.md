@@ -137,7 +137,7 @@ In conclusion, we are satifised with the performance of our top 2 models especia
 ---
 ## 7. References and Data Sources
 
-1. 1) https://towardsdatascience.com/how-i-was-using-naive-bayes-incorrectly-till-now-part-1-4ed2a7e2212b
+1) https://towardsdatascience.com/how-i-was-using-naive-bayes-incorrectly-till-now-part-1-4ed2a7e2212b
 
 2) https://towardsdatascience.com/naive-bayes-classifier-how-to-successfully-use-it-in-python-ecf76a995069
 
