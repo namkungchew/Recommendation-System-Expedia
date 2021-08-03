@@ -40,7 +40,10 @@ Expedia is a online travel hotel booking website. At this moment, they are using
 ## 2. Problem Statement
 Using past data of each user, we are tasked to build a model that predicts the likelihood a user will stay at 100 different hotel groups i.e. a problem of classifying 100 different classes. Using this model, we hope to predict top 5 hotel groups that appeals more and is more likely to be booked by the user.
 
-The metric for evaluating our model is Mean Average Precision @ 5 meaning that we are going to make 5 predictions on which hotel group will be booked. If our first prediction is correct, we will be allocated 1 point, if we only get it right on the 2nd prediction, we will be allocated 0.8 points and so on. If we didn't predict the correct hotel group in all 5 predictions, the score is 0.
+The metric for evaluating our model is Mean Average Precision @ 5 which is the area under the Precision and Recall curve for 5 predictions.
+
+![image](https://user-images.githubusercontent.com/83707934/127964844-b4207c66-2b91-40ee-8275-ded33a427cab.png)
+
 
 ---
 ## 3. Executive Summary
