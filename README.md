@@ -119,7 +119,7 @@ Our best model is still CategoricalNB with a kaggle score of 0.2941 while our TF
 
 Possible Further Improvement for the CategoricalNB Model:
 
-- We can try balancing the different classes more by using an undersampling for some of the classes and undersampling for some of the classes within memory allowance.
+- We can try balancing the different classes more by using an undersampling for some of the classes and oversampling for some of the classes within memory allowance.
 
 - We can also explore using partial_fit in CategoricalNB to manage the memory usage. This will require the use of a custom pipeline.
 
